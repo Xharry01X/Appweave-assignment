@@ -18,6 +18,7 @@ function App() {
     {/* products section-Name,image,price,AddtocartButton */}
     <Header/>
     <SearchBar/>
+    <Products/>
     </>
   )
 }

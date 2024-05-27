@@ -6,6 +6,8 @@ const Products = () => {
   return (
     <div className='desgin'>
      <div className="left-filter">
+      {/* filter has taken some area and product screen has some area 
+      now you can filter out ont the basis of color */}
       <Filter/>
 
      </div>
