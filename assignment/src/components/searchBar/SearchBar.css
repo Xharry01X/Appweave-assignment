@@ -1,0 +1,43 @@
+.input-view {
+    margin-top: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px; 
+   
+  }
+  
+  .input-box {
+    position: relative;
+  }
+  
+  input[type="text"] {
+    width: 300px; /* Adjust width as needed */
+    padding: 10px;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    outline: none;
+    font-size: 16px;
+  }
+  
+  input[type="text"]:focus {
+    border-color: #007bff; /* Adjust focus color as needed */
+  }
+  
+  button[type="submit"] {
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    padding: 8px 15px;
+    background-color: #007bff; /* Adjust button color as needed */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button[type="submit"]:hover {
+    background-color: #0056b3; /* Adjust hover color as needed */
+  }
+  
